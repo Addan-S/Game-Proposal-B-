@@ -1,0 +1,15 @@
+#body {
+    background-image: url(./Images/Orca-copy.jpg);
+    font-family: 'Courier Prime', monospace;
+    font-size: 20px;
+}
+
+#title-container {
+    display: flex; 
+    justify-content: center;
+}
+
+#title {
+    font-family: 'Lobster', cursive;
+
+}
