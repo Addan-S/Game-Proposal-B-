@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css"> 
+    <!-- Google Font for Title -->
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <!-- Google font for body -->
+    <link href="https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap" rel="stylesheet">
+
+</head>
+<body id="body">
+    <div id="title-container">
+     <h1 id="title"> Blackjack </h1> <br>
+    </div>
+
+     Cards: <br>
+     <div id="dealer-cards"></div> <br>
+     
+     <div id="player-cards"></div> <br>
+     
+     <input type='button' id='new-game-button' value='New Game' onclick='newGame();'/>
+     
+     <input type='button' id='hit-button' value='Hit' onclick='hit();'/>
+     
+     <input type='button' id='stand-button' value='Stand' onclick='check();'/>
+     
+     <br><br>
+             
+     <div id=player-money></div>
+     Bet: 
+     
+     <input type='number' id='bet' value='10' min='1'/>
+    
+     <br> <br>
+     Score:
+     <div id="player-score"></div>
+            
+     <div id="dealer-score"></div> <br>
+     
+     <h2 id="message-board"></h2>
+    
+     <script src="app.js"> </script>
+
+
+</body>
+</html>
